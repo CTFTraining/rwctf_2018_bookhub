@@ -1,0 +1,8 @@
+version: "2"
+services:
+
+  web:
+    image: registry.cn-hongkong.aliyuncs.com/trains/rwctf2018_bookhub:latest
+    ports:
+      - "127.0.0.1:10008:8000"
+    restart: always

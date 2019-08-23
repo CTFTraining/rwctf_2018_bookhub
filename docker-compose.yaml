@@ -5,4 +5,6 @@ services:
     image: ctftraining/rwctf2018_bookhub
     ports:
       - "127.0.0.1:10008:8000"
+    environment:
+      - FLAG=flag{test_flag}
     restart: always
